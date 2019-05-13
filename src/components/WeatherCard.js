@@ -238,6 +238,9 @@ export default class WeatherCard extends Component {
       if (condition === "Fog" || "Mist" || "Haze" || "Smoke") {
         return "FOG";
       }
+      if (condition === "Snow") {
+        return "SNOW"
+      }
     };
 
     let setWeatherText = condition => {
@@ -264,6 +267,9 @@ export default class WeatherCard extends Component {
       }
       if (condition === "Smoke") {
         return "Smoky Skies";
+      }
+      if (condition === "Snow") {
+        return "It's Snowing!";
       }
     };
 
