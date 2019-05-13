@@ -29,3 +29,13 @@ This project uses the following dependencies:
 ## Options
 
 1. The app automatically scrolls between each weather card every 3s. To disable or edit this, simply remove or edit ```auto={3000}``` from the ```Swipe``` component.
+
+## Demo
+
+Here's what the app looks like on [Desktop](https://raw.githubusercontent.com/microcerebus/snaphunt-tech-test/master/desktop.gif)
+
+<img src="https://raw.githubusercontent.com/microcerebus/snaphunt-tech-test/master/desktop.gif">
+
+Here's what the app looks like on [Mobile](https://raw.githubusercontent.com/microcerebus/snaphunt-tech-test/master/mobile.gif)
+
+<img src="https://raw.githubusercontent.com/microcerebus/snaphunt-tech-test/master/mobile.gif">
