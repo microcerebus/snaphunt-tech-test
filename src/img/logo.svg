@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="30" height="25" viewBox="0 0 30 25">
+    <defs>
+        <rect id="a" width="315" height="375" rx="15"/>
+        <filter id="b" width="110.5%" height="108.8%" x="-5.2%" y="-4.4%" filterUnits="objectBoundingBox">
+            <feOffset in="SourceAlpha" result="shadowOffsetOuter1"/>
+            <feGaussianBlur in="shadowOffsetOuter1" result="shadowBlurOuter1" stdDeviation="5.5"/>
+            <feColorMatrix in="shadowBlurOuter1" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.148635643 0"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path fill="#FFF" d="M-198-220h1400V846H-198z"/>
+        <path fill="#222529" fill-opacity=".7" d="M-198-119h1400v575H-198z"/>
+        <g transform="translate(-20 -20)">
+            <mask id="c" fill="#fff">
+                <use xlink:href="#a"/>
+            </mask>
+            <use fill="#000" filter="url(#b)" xlink:href="#a"/>
+            <use fill="#FFF" xlink:href="#a"/>
+            <g fill-rule="nonzero" mask="url(#c)">
+                <path fill="#1CC7D0" d="M38.91 38.343l-3.201-3.4a.996.996 0 0 0-.726-.315h-.001a1 1 0 0 0-.726.317l-3.18 3.4a1.053 1.053 0 0 0 .03 1.462.989.989 0 0 0 1.425-.03l1.44-1.538v5.716c0 .571.451 1.035 1.008 1.035.557 0 1.008-.464 1.008-1.035v-5.738l1.472 1.563a.99.99 0 0 0 1.425.025c.401-.396.412-1.051.025-1.462"/>
+                <path fill="#000" d="M39.289 34.256l-2.986-3.25L41.9 22.86l1.933 2.691-4.544 8.706zm-8.59 0l-4.544-8.706 1.933-2.691 5.597 8.148-2.986 3.249zm4.295-4.965l-4.953-7.21h9.906l-4.953 7.21zm14.372-3.086l-3.68-1.59-2.895-4.03a1.015 1.015 0 0 0-.914-.585H28.11c-.402 0-.75.239-.915.585l-2.894 4.03-3.68 1.59a1.05 1.05 0 0 0-.542 1.363c.164.397.541.635.938.635a.995.995 0 0 0 .395-.082l3.083-1.33 5.076 9.724a1.014 1.014 0 0 0 .898.551c.278 0 .547-.117.74-.327l3.784-4.117 3.783 4.117a1.009 1.009 0 0 0 .875.318c.325-.044.61-.245.764-.542l5.076-9.724 3.083 1.33a.994.994 0 0 0 .394.082c.397 0 .775-.238.939-.635a1.05 1.05 0 0 0-.542-1.363z"/>
+            </g>
+        </g>
+    </g>
+</svg>
