@@ -26,10 +26,12 @@ function App() {
   return (
     <div
       style={{
+        height: "100vh",
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
-        flexDirection: "column"
+        flexDirection: "column",
+        backgroundColor: "rgba(34, 37, 41, 0.7)"
       }}
       className="App"
     >

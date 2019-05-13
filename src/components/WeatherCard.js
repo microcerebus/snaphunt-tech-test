@@ -306,7 +306,7 @@ export default class WeatherCard extends Component {
             </CountryText>
           </div>
           <DateBox>
-            <MonthText>{months[month - 1]}</MonthText>
+            <MonthText>{months[month]}</MonthText>
             <DateText>{date}</DateText>
           </DateBox>
         </InfoBar>
